@@ -10,22 +10,26 @@
     body{
         text-align: center;
     }
-    .btn{
-        background-color: brown;
-    }
+   
 </style>
 <body>
     <div class="main">
+        <div>
         <input placeholder="Enter To Do" type="text" id="todo-item">
-        <button onclick="addTodo()">ADD ITEM</button>
-        <button onclick="deleteAll()">DELETE All</button>
+    </div>
+         
+<br>
+<div>
+        <button id="koo" class="nasir" onclick="addTodo()">ADD ITEM</button>
+        <br>
+        <button class="nasir" onclick="deleteAll()">DELETE All</button>
     </div>
     <div>
         <ul id="list">
 
         </ul>
     </div>
-    
+</div>
 </body>
 <script src="app.js"></script>
 </html>

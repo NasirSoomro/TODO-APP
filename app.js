@@ -15,6 +15,7 @@ function addTodo() {
 // creat edite button
 var editBtn = document.createElement("Button") 
 var editText = document.createTextNode("EDIT")
+editBtn.setAttribute("class","jus")
 editBtn.appendChild(editText)
 li.appendChild(delBtn)
 li.appendChild(editBtn)

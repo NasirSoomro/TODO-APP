@@ -1,0 +1,31 @@
+.main{
+  
+     border: 1px solid black;
+     width: 190px;
+
+     min-height: 100px;
+}
+#todo-item{
+    margin-top: 5px;
+}
+#koo{
+    width: 83px;
+}
+.nasir{ border: none;
+    background-color: #e7e7e7; color: black;
+    margin-top: 5px;
+     margin-bottom: 5px;
+      margin-left: 90px;
+}
+.jus{
+    background-color: green;
+    border: none;
+    padding: 1px;
+    margin: 4px;
+}
+.btn{
+    background-color: red;
+    border: none;
+    padding: 1px;
+    margin: 4px;
+}
